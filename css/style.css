@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgba(233, 241, 241, 0.623);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.container{
+background-color: white;
+width: 350px;
+height: 300px;
+margin-top: 40%;
+margin-bottom: 50%;
+padding: 10px;
+border: 3px solid rgb(195, 232, 247);
+border-radius: 8px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+h1, p{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.msg_error{
+    width: 300px;
+    
+    color: red;
+}
+
+.campo_dados{
+    margin: 5px 5px -5px 0px;
+    padding: 8px;
+}
+
+.campo_dados input{
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #41a6cd;
+    border-radius: 3px;
+
+    
+}
+
+.btn-entrar{
+    background: #1594c5c2;
+    color: #fff;
+    width: 5em;
+    height: 1.5em;
+    font-size: 19px;
+    border: 1px solid #41a6cd;
+    border-radius: 6px;
+}
+
+.btn-entrar:hover{
+    background: #1593c5;
+}
